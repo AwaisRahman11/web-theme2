@@ -10,7 +10,6 @@ body {
   font-size: xx-large;
 }
 main {
-  /* width: 100%; */
   padding: 0px !important;
 }
 strong {
@@ -18,17 +17,15 @@ strong {
   border-bottom: 3px solid rgba(255, 166, 0, 0.734);
 }
 .navbar-nav {
-  /* border: 1px solid; */
   align-items: center;
   margin: auto;
 }
 .navbar {
-  /* border: 1px solid; */
   padding: 0;
   background-color: #ffffff;
-  /* position: fixed;
-  z-index: 1; */
-  /* width: 100%; */
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -36,7 +33,6 @@ a {
   text-decoration: none;
 }
 .nav-link {
-  /* font-weight: bold; */
   color: #000;
   margin: 10px !important;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -49,10 +45,7 @@ a {
 }
 .first {
   margin: 0;
-  /* min-width: 100%; */
-  /* min-height: 100%; */
   min-height: 120vh;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,13 +54,12 @@ a {
       rgba(11, 14, 16, 0.793),
       rgba(20, 22, 21, 0.596)
     ),
-    url(photos/pexels-fauxels-3184436.jpg);
+    url(pexels-fauxels-3184436.jpg);
   background-size: cover !important;
 }
 .box {
   height: 300px;
   width: 700px;
-  /* border: 1px solid; */
 }
 .sign-btn {
   border: none;
@@ -86,7 +78,6 @@ a {
 }
 .second {
   min-height: 100vh;
-  /* border: 1px solid; */
   margin: 0;
 }
 .second img {
@@ -110,14 +101,11 @@ a {
   background-color: #171616;
 }
 .box-top {
-  /* height: 60px; */
   width: 290px;
-  /* border: 1px solid; */
   padding: 10px;
 }
 .box-bottom {
   width: 290px;
-  /* border: 1px solid; */
   padding: 20px;
 }
 .box-top .fa-solid {
@@ -136,7 +124,6 @@ a {
 }
 .fourth {
   min-height: 100vh;
-  /* border: 1px solid; */
   background-color: rgba(245, 245, 245, 0.347);
 }
 .fourth .card {
@@ -149,7 +136,6 @@ a {
   min-height: 110vh;
 }
 .comment-box {
-  /* border: 1px solid; */
   width: 350px;
 }
 .five .second-img {
@@ -178,11 +164,9 @@ a {
 .six img {
   height: 270px;
   width: 580px;
-  /* border: 1px solid green; */
 }
 .seven {
   min-height: 100vh;
-  /* background-color: #f8f4f4a1; */
   background-color: rgba(245, 245, 245, 0.288);
 }
 .seven .card {
@@ -197,7 +181,6 @@ a {
   border-top-right-radius: 30px;
 }
 .fa-brands {
-  /* border: 1px solid; */
   padding: 10px;
   border-radius: 50%;
   background-color: rgba(200, 197, 197, 0.257);
@@ -207,13 +190,6 @@ small {
   color: rgba(255, 255, 255, 0.784);
 }
 
-/* @media (max-width: 576px) {
-  .btn {
-    margin-left: 80px;
-  }
-} */
-
-/* For small devices (up to 576px) */
 @media (max-width: 576px) {
   .navbar-brand {
     font-size: 1.25rem;
@@ -313,10 +289,6 @@ small {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-  }
-  .seven .first-text {
-    /* order: -1; */
-    /* width: 100%; */
   }
   .eight {
     text-align: center;
